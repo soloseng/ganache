@@ -1,0 +1,2 @@
+export declare type Hardfork = "constantinople" | "byzantium" | "petersburg" | "istanbul" | "muirGlacier" | "berlin" | "london" | "arrowGlacier" | "grayGlacier" | "merge";
+//# sourceMappingURL=hardfork.d.ts.map

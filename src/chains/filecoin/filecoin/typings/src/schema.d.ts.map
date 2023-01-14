@@ -1,0 +1,1 @@
+{"version":3,"file":"schema.d.ts","sourceRoot":"","sources":["../../src/schema.ts"],"names":[],"mappings":"AAEA,oBAAY,MAAM,GAAG;IACnB,OAAO,EAAE;QACP,CAAC,YAAY,EAAE,MAAM,GAAG;YACtB,YAAY,CAAC,EAAE,OAAO,CAAC;YACvB,SAAS,CAAC,EAAE,MAAM,CAAC;SACpB,CAAC;KACH,CAAC;CACH,CAAC;AAEF,QAAA,MAAM,aAAa,EAAE,MAEV,CAAC;AAgCZ,eAAe,aAAa,CAAC"}

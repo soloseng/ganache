@@ -1,0 +1,1 @@
+{"version":3,"file":"ethereum.d.ts","sourceRoot":"","sources":["../../../../../cli/src/initialize/ethereum.ts"],"names":[],"mappings":"AAGA,OAAO,KAAK,EAAE,gBAAgB,EAAE,MAAM,mBAAmB,CAAC;AAE1D,OAAO,EAAE,WAAW,EAAE,MAAM,UAAU,CAAC;AASvC,MAAM,CAAC,OAAO,WAAW,QAAQ,EAAE,gBAAgB,EAAE,WAAW,EAAE,WAAW,QAmH5E"}
