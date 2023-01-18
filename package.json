@@ -14,6 +14,7 @@
     "docs.preview": "lerna run docs.preview",
     "postinstall": "cd scripts && ts-node postinstall",
     "reinstall": "npm run clean && npm install",
+    "publish": "lerna publish from-package --registry=\"http://localhost:4873/\"",
     "prepublishOnly": "cd scripts && ts-node filter-shrinkwrap.ts \"$(lerna list --parseable --scope ganache)\"/npm-shrinkwrap.json",
     "postpublish": "git restore \"$(lerna list --parseable --scope ganache)\"/npm-shrinkwrap.json",
     "start": "lerna exec --loglevel=silent --scope ganache -- npm run start --silent -- ",
