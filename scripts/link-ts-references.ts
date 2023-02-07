@@ -93,12 +93,12 @@ function updateConfig(config: PackageInfo) {
   // add package.json deps to tsconfig references:
   references.forEach(name => {
     const referenceConfig = getConfigByName(name);
-    if(!referenceConfig) throw new Error(`missing config ${name}`);
+    if (!referenceConfig) throw new Error(`missing config ${name}`);
 
     // projects that are referenced by other projects must have the `composite: true` in their tsconfig compileOptions
     if (
-      (!referenceConfig.tsConfig.compilerOptions ||
-      !referenceConfig.tsConfig.compilerOptions.composite)
+      !referenceConfig.tsConfig.compilerOptions ||
+      !referenceConfig.tsConfig.compilerOptions.composite
     ) {
       if (!referenceConfig.tsConfig.compilerOptions)
         referenceConfig.tsConfig.compilerOptions = {};
@@ -171,7 +171,23 @@ const configs: PackageInfo[] = packageDirectories.map((pkg: any) => {
     ...keys(packageJson.devDependencies),
     ...keys(packageJson.peerDependencies),
     ...keys(packageJson.optionalDependencies)
-  ].filter(name => name.startsWith("@ganache/") || name === "ganache");
+  ].filter(
+    name =>
+      name === "ganache" ||
+      name === "@ganache/colors" ||
+      name === "@ganache/options" ||
+      name === "@ganache/promise-queue" ||
+      name === "@ganache/rlp" ||
+      name === "@ganache/secp256k1" ||
+      name === "@ganache/utils" ||
+      name === "@ganache/console.log" ||
+      name === "@ganache/ethereum-address" ||
+      name === "@ganache/filecoin" ||
+      name === "@ganache/filecoin-options" ||
+      name === "@ganache/tezos-options" ||
+      name === "@ganache/tezos"
+  );
+  // ].filter(name => name.startsWith("@ganache/") || name === "ganache");
 
   return {
     modified: false,

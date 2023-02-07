@@ -11,10 +11,6 @@
   ],
   "references": [
     {
-      "name": "@ganache/ethereum-utils",
-      "path": "../utils"
-    },
-    {
       "name": "@ganache/options",
       "path": "../../../packages/options"
     },

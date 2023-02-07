@@ -15,20 +15,12 @@
       "path": "../address"
     },
     {
-      "name": "@ganache/ethereum-transaction",
-      "path": "../transaction"
-    },
-    {
       "name": "@ganache/rlp",
       "path": "../../../packages/rlp"
     },
     {
       "name": "@ganache/utils",
       "path": "../../../packages/utils"
-    },
-    {
-      "name": "@ganache/ethereum-utils",
-      "path": "../utils"
     }
   ]
 }
