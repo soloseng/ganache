@@ -65,7 +65,7 @@
     "@ethereumjs/util": "8.0.2",
     "@ganache/colors": "0.4.0",
     "@ganache/core": "0.8.1",
-    "@ganache/flavors": "0.8.1",
+    "@soloseng/ganache-flavors": "0.8.2-beta.1",
     "@ganache/options": "0.7.0",
     "@ganache/utils": "0.7.0",
     "@trufflesuite/ps-list": "0.0.3",

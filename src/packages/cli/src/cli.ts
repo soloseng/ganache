@@ -3,7 +3,7 @@
 import type Readline from "readline";
 import Ganache, { ServerStatus } from "@ganache/core";
 import args from "./args";
-import { EthereumFlavorName, FilecoinFlavorName } from "@ganache/flavors";
+import { EthereumFlavorName, FilecoinFlavorName } from "@soloseng/ganache-flavors";
 import initializeEthereum from "./initialize/ethereum";
 import initializeFilecoin from "./initialize/filecoin";
 import type { FilecoinProvider } from "@ganache/filecoin";

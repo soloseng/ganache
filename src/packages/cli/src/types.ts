@@ -1,4 +1,4 @@
-import { DefaultFlavor, FlavorName } from "@ganache/flavors";
+import { DefaultFlavor, FlavorName } from "@soloseng/ganache-flavors";
 import { ServerOptions } from "@ganache/core";
 
 type CliServerOptions = {

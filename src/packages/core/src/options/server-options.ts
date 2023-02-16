@@ -1,4 +1,4 @@
-import { DefaultFlavor, FilecoinFlavorName } from "@ganache/flavors";
+import { DefaultFlavor, FilecoinFlavorName } from "@soloseng/ganache-flavors";
 import { Definitions } from "@ganache/options";
 import { kMaxLength } from "buffer";
 

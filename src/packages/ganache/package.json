@@ -58,7 +58,7 @@
   "devDependencies": {
     "@ganache/cli": "0.8.1",
     "@ganache/core": "0.8.1",
-    "@ganache/flavors": "0.8.1",
+    "@soloseng/ganache-flavors": "0.8.2-beta.1",
     "@microsoft/api-extractor": "7.20.1",
     "@types/abstract-leveldown": "7.2.0",
     "@types/mocha": "9.0.0",

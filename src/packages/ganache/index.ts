@@ -17,7 +17,7 @@ export type {
 // for backwards compatibility with previous versions of v7
 // we introduce a top-level `EthereumProvider`
 export { EthereumProvider } from "@ganache/core";
-import type { ConnectorsByName } from "@ganache/flavors";
+import type { ConnectorsByName } from "@soloseng/ganache-flavors";
 export type FilecoinProvider = ConnectorsByName["filecoin"];
 
 // polyfill "setImmediate" for the browser

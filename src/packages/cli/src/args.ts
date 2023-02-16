@@ -5,7 +5,7 @@ import {
   FilecoinFlavorName,
   DefaultOptionsByName,
   FlavorName
-} from "@ganache/flavors";
+} from "@soloseng/ganache-flavors";
 import {
   Base,
   Definitions,

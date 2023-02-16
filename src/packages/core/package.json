@@ -49,7 +49,7 @@
   ],
   "dependencies": {
     "@soloseng/ganache-ethereum": "0.8.2-beta.1",
-    "@ganache/flavors": "0.8.1",
+    "@soloseng/ganache-flavors": "0.8.2-beta.1",
     "@ganache/options": "0.7.0",
     "@ganache/tezos": "0.7.0",
     "@ganache/utils": "0.7.0",

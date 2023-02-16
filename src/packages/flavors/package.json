@@ -1,9 +1,9 @@
 {
-  "name": "@ganache/flavors",
+  "name": "@soloseng/ganache-flavors",
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.8.1",
+  "version": "0.8.2-beta.1",
   "description": "Ganache's flavors enumeration and TypeScript types",
   "author": "David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)",
   "homepage": "https://github.com/trufflesuite/ganache/tree/develop/src/packages/flavors#readme",
