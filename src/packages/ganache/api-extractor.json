@@ -58,7 +58,7 @@
    */
   "bundledPackages": [
     "@ganache/utils",
-    "@ganache/core",
+    "@soloseng/ganache-core",
     "@ganache/options",
     "@soloseng/ganache-flavors",
     "@soloseng/ganache-ethereum",

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import type Readline from "readline";
-import Ganache, { ServerStatus } from "@ganache/core";
+import Ganache, { ServerStatus } from "@soloseng/ganache-core";
 import args from "./args";
 import { EthereumFlavorName, FilecoinFlavorName } from "@soloseng/ganache-flavors";
 import initializeEthereum from "./initialize/ethereum";
@@ -44,7 +44,7 @@ const version = process.env.VERSION || "DEV";
 const cliVersion = process.env.CLI_VERSION || "DEV";
 const coreVersion = process.env.CORE_VERSION || "DEV";
 
-const detailedVersion = `ganache v${version} (@ganache/cli: ${cliVersion}, @ganache/core: ${coreVersion})`;
+const detailedVersion = `ganache v${version} (@ganache/cli: ${cliVersion}, @soloseng/ganache-core: ${coreVersion})`;
 
 const isDocker =
   "DOCKER" in process.env && process.env.DOCKER.toLowerCase() === "true";

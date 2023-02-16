@@ -16,7 +16,7 @@ import chalk from "chalk";
 import { EOL } from "os";
 import marked from "marked";
 import TerminalRenderer from "marked-terminal";
-import { _DefaultServerOptions } from "@ganache/core";
+import { _DefaultServerOptions } from "@soloseng/ganache-core";
 
 marked.setOptions({
   renderer: new TerminalRenderer({

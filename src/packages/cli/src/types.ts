@@ -1,5 +1,5 @@
 import { DefaultFlavor, FlavorName } from "@soloseng/ganache-flavors";
-import { ServerOptions } from "@ganache/core";
+import { ServerOptions } from "@soloseng/ganache-core";
 
 type CliServerOptions = {
   host: string;
