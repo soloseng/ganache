@@ -52,7 +52,7 @@ import {
   InternalTransactionReceipt,
   VmTransaction,
   TypedTransaction
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import { Block, RuntimeBlock, Snapshots } from "@ganache/ethereum-block";
 import {
   SimulationTransaction,

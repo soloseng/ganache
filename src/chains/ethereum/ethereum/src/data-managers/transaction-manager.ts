@@ -11,7 +11,7 @@ import {
   TransactionFactory,
   Transaction,
   TypedTransaction
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import { GanacheLevelUp } from "../database";
 
 // since our Manager needs to receive and Instantiable class with a

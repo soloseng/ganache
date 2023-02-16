@@ -2,7 +2,7 @@ import assert from "assert";
 import {
   EIP1559FeeMarketRpcTransaction,
   TransactionFactory
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import { EthereumOptionsConfig } from "@ganache/ethereum-options";
 import Wallet from "../src/wallet";
 import Blockchain from "../src/blockchain";

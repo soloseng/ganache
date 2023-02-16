@@ -5,7 +5,7 @@ import {
   TransactionFactory,
   Transaction,
   TypedTransaction
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import { EthereumOptionsConfig } from "@ganache/ethereum-options";
 import { Data, Heap, Quantity } from "@ganache/utils";
 import Wallet from "../src/wallet";

@@ -1,7 +1,7 @@
 import {
   TypedDatabaseTransaction,
   GanacheRawBlockTransactionMetaData
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import { digest, encodeLength, encodeRange, encode } from "@ganache/rlp";
 import { uintToBuffer } from "@ganache/utils";
 

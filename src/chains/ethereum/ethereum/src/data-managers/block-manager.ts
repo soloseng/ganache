@@ -13,7 +13,7 @@ import {
   GanacheRawBlockTransactionMetaData,
   TransactionFactory,
   TypedDatabaseTransaction
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import { GanacheLevelUp } from "../database";
 
 const LATEST_INDEX_KEY = BUFFER_ZERO;

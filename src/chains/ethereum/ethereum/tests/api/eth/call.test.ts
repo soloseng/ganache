@@ -13,10 +13,10 @@ import { Block, RuntimeBlock } from "@ganache/ethereum-block";
 import {
   LegacyRpcTransaction,
   TransactionFactory
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import { EthereumOptionsConfig } from "@ganache/ethereum-options";
 import { GanacheTrie } from "../../../src/helpers/trie";
-import { Transaction } from "@ganache/ethereum-transaction";
+import { Transaction } from "@soloseng/ganache-ethereum-transaction";
 
 const encodeValue = (val: number | string) => {
   return Quantity.toBuffer(val).toString("hex").padStart(64, "0");

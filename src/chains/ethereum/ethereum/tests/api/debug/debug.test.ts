@@ -12,7 +12,7 @@ import { Address } from "@ganache/ethereum-address";
 import {
   LegacyTransaction,
   TransactionFactory
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import Blockchain from "../../../src/blockchain";
 
 describe("api", () => {

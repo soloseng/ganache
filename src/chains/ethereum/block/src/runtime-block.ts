@@ -7,7 +7,7 @@ import {
   TypedDatabaseTransaction,
   GanacheRawBlockTransactionMetaData,
   TypedTransaction
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import { StorageKeys } from "@soloseng/ganache-ethereum-utils";
 
 export type BlockHeader = {

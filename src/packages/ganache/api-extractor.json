@@ -66,7 +66,7 @@
     "@soloseng/ganache-ethereum-utils",
     "@ganache/ethereum-address",
     "@ganache/rlp",
-    "@ganache/ethereum-transaction",
+    "@soloseng/ganache-ethereum-transaction",
     "@ganache/ethereum-block",
     "@ganache/console.log",
     "@ethereumjs/vm",

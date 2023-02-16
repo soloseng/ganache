@@ -1,5 +1,5 @@
 /*!
- * @ganache/ethereum-transaction
+ * @soloseng/ganache-ethereum-transaction
  *
  * @author David Murdoch
  * @license MIT

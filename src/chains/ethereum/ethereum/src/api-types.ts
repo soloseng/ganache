@@ -1,5 +1,5 @@
 import type * as EthSigUtil from "eth-sig-util";
-import type * as TransactionTypes from "@ganache/ethereum-transaction";
+import type * as TransactionTypes from "@soloseng/ganache-ethereum-transaction";
 import type * as UtilTypes from "@soloseng/ganache-ethereum-utils";
 import type { EthereumProvider, Externalize } from "./provider";
 import { BlockHeader } from "@ganache/ethereum-block";

@@ -16,7 +16,7 @@ import {
   Transaction,
   TransactionFactory,
   TypedTransaction
-} from "@ganache/ethereum-transaction";
+} from "@soloseng/ganache-ethereum-transaction";
 import {
   toRpcSig,
   hashPersonalMessage,

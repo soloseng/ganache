@@ -3,7 +3,7 @@ import { Address } from "@ganache/ethereum-address";
 import { BUFFER_ZERO, Data, Quantity } from "@ganache/utils";
 import { Common } from "@ethereumjs/common";
 import Wallet from "../../ethereum/src/wallet";
-import { Transaction, TransactionFactory } from "@ganache/ethereum-transaction";
+import { Transaction, TransactionFactory } from "@soloseng/ganache-ethereum-transaction";
 import Blockchain from "../../ethereum/src/blockchain";
 import { EthereumOptionsConfig } from "../../options/src/index";
 

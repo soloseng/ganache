@@ -2,7 +2,7 @@ import getProvider from "../../helpers/getProvider";
 import assert from "assert";
 import { Data, Quantity } from "@ganache/utils";
 import { EthereumProvider } from "../../../src/provider";
-import { Transaction } from "@ganache/ethereum-transaction";
+import { Transaction } from "@soloseng/ganache-ethereum-transaction";
 import memdown from "memdown";
 import { EthereumProviderOptions } from "@ganache/ethereum-options/typings";
 

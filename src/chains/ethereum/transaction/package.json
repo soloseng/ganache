@@ -1,9 +1,9 @@
 {
-  "name": "@ganache/ethereum-transaction",
+  "name": "@soloseng/ganache-ethereum-transaction",
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.7.0",
+  "version": "0.7.1-beta.0",
   "description": "",
   "author": "David Murdoch",
   "homepage": "https://github.com/trufflesuite/ganache/tree/develop/src/chains/ethereum/transaction#readme",

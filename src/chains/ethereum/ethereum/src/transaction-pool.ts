@@ -13,7 +13,7 @@ import {
 } from "@soloseng/ganache-ethereum-utils";
 import { EthereumInternalOptions } from "@ganache/ethereum-options";
 import { Executables } from "./miner/executables";
-import { TypedTransaction } from "@ganache/ethereum-transaction";
+import { TypedTransaction } from "@soloseng/ganache-ethereum-transaction";
 
 /**
  * Checks if the `replacer` is eligible to replace the `replacee` transaction
