@@ -1,5 +1,5 @@
 {
-  "name": "@ganache/ethereum-options",
+  "name": "@soloseng/ganache-ethereum-options",
   "publishConfig": {
     "access": "public"
   },

@@ -1,4 +1,4 @@
-import { KNOWN_NETWORKS } from "@ganache/ethereum-options/src/fork-options";
+import { KNOWN_NETWORKS } from "@soloseng/ganache-ethereum-options/src/fork-options";
 import getProvider from "../helpers/getProvider";
 import http from "http";
 import ganache from "../../../../../packages/core";

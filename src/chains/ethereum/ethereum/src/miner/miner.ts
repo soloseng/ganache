@@ -18,7 +18,7 @@ import { Trie } from "@ethereumjs/trie";
 import Emittery from "emittery";
 import { DefaultStateManager } from "@ethereumjs/statemanager";
 import { VM } from "@ethereumjs/vm";
-import { EthereumInternalOptions } from "@ganache/ethereum-options";
+import { EthereumInternalOptions } from "@soloseng/ganache-ethereum-options";
 import replaceFromHeap from "./replace-from-heap";
 import { EVMResult } from "@ethereumjs/evm";
 import { Params, TypedTransaction } from "@soloseng/ganache-ethereum-transaction";

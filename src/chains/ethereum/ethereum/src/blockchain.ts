@@ -30,7 +30,7 @@ import {
   EVMResult,
   EVM
 } from "@ethereumjs/evm";
-import { EthereumInternalOptions, Hardfork } from "@ganache/ethereum-options";
+import { EthereumInternalOptions, Hardfork } from "@soloseng/ganache-ethereum-options";
 import {
   Quantity,
   Data,

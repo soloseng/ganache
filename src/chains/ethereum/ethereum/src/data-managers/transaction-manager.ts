@@ -1,6 +1,6 @@
 import Manager from "./manager";
 import TransactionPool from "../transaction-pool";
-import { EthereumInternalOptions } from "@ganache/ethereum-options";
+import { EthereumInternalOptions } from "@soloseng/ganache-ethereum-options";
 import Blockchain from "../blockchain";
 import PromiseQueue from "@ganache/promise-queue";
 import type { Common } from "@ethereumjs/common";

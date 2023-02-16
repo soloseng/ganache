@@ -1,4 +1,4 @@
-import { EthereumInternalOptions } from "@ganache/ethereum-options";
+import { EthereumInternalOptions } from "@soloseng/ganache-ethereum-options";
 import { hasOwn, JsonRpcError } from "@ganache/utils";
 import { AbortSignal } from "abort-controller";
 import { OutgoingHttpHeaders } from "http";

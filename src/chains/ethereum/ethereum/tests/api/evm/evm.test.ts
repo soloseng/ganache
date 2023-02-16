@@ -4,7 +4,7 @@ import { Data, Quantity } from "@ganache/utils";
 import { EthereumProvider } from "../../../src/provider";
 import { Transaction } from "@soloseng/ganache-ethereum-transaction";
 import memdown from "memdown";
-import { EthereumProviderOptions } from "@ganache/ethereum-options/typings";
+import { EthereumProviderOptions } from "@soloseng/ganache-ethereum-options/typings";
 
 function between(x: number, min: number, max: number) {
   return x >= min && x <= max;

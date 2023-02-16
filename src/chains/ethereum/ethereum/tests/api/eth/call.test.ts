@@ -14,7 +14,7 @@ import {
   LegacyRpcTransaction,
   TransactionFactory
 } from "@soloseng/ganache-ethereum-transaction";
-import { EthereumOptionsConfig } from "@ganache/ethereum-options";
+import { EthereumOptionsConfig } from "@soloseng/ganache-ethereum-options";
 import { GanacheTrie } from "../../../src/helpers/trie";
 import { Transaction } from "@soloseng/ganache-ethereum-transaction";
 

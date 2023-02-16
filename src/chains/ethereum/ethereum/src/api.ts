@@ -36,7 +36,7 @@ import {
   max
 } from "@ganache/utils";
 import Blockchain from "./blockchain";
-import { EthereumInternalOptions } from "@ganache/ethereum-options";
+import { EthereumInternalOptions } from "@soloseng/ganache-ethereum-options";
 import Wallet from "./wallet";
 
 import Emittery from "emittery";

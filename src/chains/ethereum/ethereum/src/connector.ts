@@ -21,7 +21,7 @@ import { CodedError } from "@soloseng/ganache-ethereum-utils";
 import {
   EthereumProviderOptions,
   EthereumLegacyProviderOptions
-} from "@ganache/ethereum-options";
+} from "@soloseng/ganache-ethereum-options";
 import { bufferify } from "./helpers/bufferify";
 
 type ProviderOptions = EthereumProviderOptions | EthereumLegacyProviderOptions;

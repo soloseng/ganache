@@ -9,7 +9,7 @@ import {
   EthereumDefaults,
   EthereumProviderOptions,
   EthereumLegacyProviderOptions
-} from "@ganache/ethereum-options";
+} from "@soloseng/ganache-ethereum-options";
 import {
   FilecoinDefaults,
   FilecoinProviderOptions,
