@@ -59,8 +59,8 @@
     "@ethereumjs/common": "3.0.1",
     "@ethereumjs/util": "8.0.2",
     "@ganache/ethereum-address": "0.7.0",
-    "@soloseng/ganache-ethereum-transaction": "0.7.1-beta.0",
-    "@soloseng/ganache-ethereum-utils": "0.7.1-beta.0",
+    "@soloseng/ganache-ethereum-transaction": "0.7.2-beta.0",
+    "@soloseng/ganache-ethereum-utils": "0.7.2-beta.0",
     "@ganache/rlp": "0.7.0",
     "@ganache/utils": "0.7.0",
     "emittery": "0.10.0"
