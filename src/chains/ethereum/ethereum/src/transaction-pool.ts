@@ -10,7 +10,7 @@ import {
   REPLACED,
   TRANSACTION_LOCKED,
   INSUFFICIENT_FUNDS
-} from "@ganache/ethereum-utils";
+} from "@soloseng/ganache-ethereum-utils";
 import { EthereumInternalOptions } from "@ganache/ethereum-options";
 import { Executables } from "./miner/executables";
 import { TypedTransaction } from "@ganache/ethereum-transaction";

@@ -18,7 +18,7 @@ import {
   TraceTransactionOptions,
   EthereumRawAccount,
   TraceTransactionResult
-} from "@ganache/ethereum-utils";
+} from "@soloseng/ganache-ethereum-utils";
 import type { InterpreterStep } from "@ethereumjs/evm";
 import { decode } from "@ganache/rlp";
 import { KECCAK256_RLP } from "@ethereumjs/util";

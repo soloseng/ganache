@@ -1,4 +1,4 @@
-import { Account } from "@ganache/ethereum-utils";
+import { Account } from "@soloseng/ganache-ethereum-utils";
 import {
   createAccountFromSeed,
   createAccountGeneratorFromSeedAndPath,

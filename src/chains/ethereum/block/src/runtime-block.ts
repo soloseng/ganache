@@ -8,7 +8,7 @@ import {
   GanacheRawBlockTransactionMetaData,
   TypedTransaction
 } from "@ganache/ethereum-transaction";
-import { StorageKeys } from "@ganache/ethereum-utils";
+import { StorageKeys } from "@soloseng/ganache-ethereum-utils";
 
 export type BlockHeader = {
   parentHash: Data;

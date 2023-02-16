@@ -4,7 +4,7 @@ import getProvider from "../../helpers/getProvider";
 import compile, { CompileOutput } from "../../helpers/compile";
 import { join } from "path";
 import { BUFFER_32_ZERO, BUFFER_EMPTY, Data, Quantity } from "@ganache/utils";
-import { CallError } from "@ganache/ethereum-utils";
+import { CallError } from "@soloseng/ganache-ethereum-utils";
 import Blockchain from "../../../src/blockchain";
 import Wallet from "../../../src/wallet";
 import { Address } from "@ganache/ethereum-address";

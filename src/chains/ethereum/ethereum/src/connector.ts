@@ -17,7 +17,7 @@ import {
   WebSocket,
   HttpRequest
 } from "@trufflesuite/uws-js-unofficial";
-import { CodedError } from "@ganache/ethereum-utils";
+import { CodedError } from "@soloseng/ganache-ethereum-utils";
 import {
   EthereumProviderOptions,
   EthereumLegacyProviderOptions

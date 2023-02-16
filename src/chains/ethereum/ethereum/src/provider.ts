@@ -25,7 +25,7 @@ import cloneDeep from "lodash.clonedeep";
 import Wallet from "./wallet";
 import Blockchain from "./blockchain";
 import { Fork } from "./forking/fork";
-import { ITraceData, Account } from "@ganache/ethereum-utils";
+import { ITraceData, Account } from "@soloseng/ganache-ethereum-utils";
 import { Address } from "@ganache/ethereum-address";
 import {
   DataEvent,

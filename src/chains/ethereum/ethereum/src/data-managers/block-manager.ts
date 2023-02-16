@@ -1,5 +1,5 @@
 import Manager from "./manager";
-import { Tag, QUANTITY } from "@ganache/ethereum-utils";
+import { Tag, QUANTITY } from "@soloseng/ganache-ethereum-utils";
 import { Quantity, Data, BUFFER_ZERO } from "@ganache/utils";
 import type { Common } from "@ethereumjs/common";
 import Blockchain from "../blockchain";

@@ -10,7 +10,7 @@ import {
   FilterTypes,
   QUANTITY,
   EthereumRawAccount
-} from "@ganache/ethereum-utils";
+} from "@soloseng/ganache-ethereum-utils";
 import { BaseFeeHeader, Block, RuntimeBlock } from "@ganache/ethereum-block";
 import {
   Transaction,

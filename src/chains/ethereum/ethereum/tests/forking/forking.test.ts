@@ -16,7 +16,7 @@ import {
 } from "./helpers";
 import compile from "../helpers/compile";
 import path from "path";
-import { CodedError } from "@ganache/ethereum-utils";
+import { CodedError } from "@soloseng/ganache-ethereum-utils";
 
 async function deployContract(
   remoteProvider: EthereumProvider,

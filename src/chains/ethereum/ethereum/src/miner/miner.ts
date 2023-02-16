@@ -4,7 +4,7 @@ import {
   RETURN_TYPES,
   TraceDataFactory,
   StorageKeys
-} from "@ganache/ethereum-utils";
+} from "@soloseng/ganache-ethereum-utils";
 import {
   Quantity,
   BUFFER_EMPTY,

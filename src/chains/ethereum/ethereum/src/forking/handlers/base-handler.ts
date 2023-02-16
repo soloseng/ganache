@@ -4,7 +4,7 @@ import { AbortSignal } from "abort-controller";
 import { OutgoingHttpHeaders } from "http";
 import RateLimiter from "../rate-limiter/rate-limiter";
 import LRU from "lru-cache";
-import { AbortError, CodedError } from "@ganache/ethereum-utils";
+import { AbortError, CodedError } from "@soloseng/ganache-ethereum-utils";
 import { PersistentCache } from "../persistent-cache/persistent-cache";
 
 const INVALID_RESPONSE = "Invalid response from fork provider: ";
