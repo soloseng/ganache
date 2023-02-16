@@ -44,7 +44,7 @@ const version = process.env.VERSION || "DEV";
 const cliVersion = process.env.CLI_VERSION || "DEV";
 const coreVersion = process.env.CORE_VERSION || "DEV";
 
-const detailedVersion = `ganache v${version} (@ganache/cli: ${cliVersion}, @soloseng/ganache-core: ${coreVersion})`;
+const detailedVersion = `ganache v${version} (@soloseng/ganache-cli: ${cliVersion}, @soloseng/ganache-core: ${coreVersion})`;
 
 const isDocker =
   "DOCKER" in process.env && process.env.DOCKER.toLowerCase() === "true";

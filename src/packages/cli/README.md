@@ -1,3 +1,3 @@
-# `@ganache/cli`
+# `@soloseng/ganache-cli`
 
 > TODO: description
