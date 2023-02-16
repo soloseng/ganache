@@ -7,7 +7,7 @@ import { Transaction, TransactionFactory } from "@soloseng/ganache-ethereum-tran
 import Blockchain from "../../ethereum/src/blockchain";
 import { EthereumOptionsConfig } from "../../options/src/index";
 
-describe("@ganache/ethereum-block", async () => {
+describe("@soloseng/ganache-ethereum-block", async () => {
   describe("baseFeePerGas calculations", () => {
     let blockchain: Blockchain;
     before(async function () {

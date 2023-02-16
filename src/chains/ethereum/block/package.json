@@ -1,9 +1,9 @@
 {
-  "name": "@ganache/ethereum-block",
+  "name": "@soloseng/ganache-ethereum-block",
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.7.0",
+  "version": "0.7.2-beta.0",
   "description": "",
   "author": "David Murdoch",
   "homepage": "https://github.com/trufflesuite/ganache/tree/develop/src/chains/ethereum/block#readme",

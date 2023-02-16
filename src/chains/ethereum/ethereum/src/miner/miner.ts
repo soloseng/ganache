@@ -23,7 +23,7 @@ import replaceFromHeap from "./replace-from-heap";
 import { EVMResult } from "@ethereumjs/evm";
 import { Params, TypedTransaction } from "@soloseng/ganache-ethereum-transaction";
 import { Executables } from "./executables";
-import { Block, RuntimeBlock } from "@ganache/ethereum-block";
+import { Block, RuntimeBlock } from "@soloseng/ganache-ethereum-block";
 import {
   makeStepEvent,
   VmAfterTransactionEvent,

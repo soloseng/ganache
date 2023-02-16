@@ -11,7 +11,7 @@ import {
   QUANTITY,
   EthereumRawAccount
 } from "@soloseng/ganache-ethereum-utils";
-import { BaseFeeHeader, Block, RuntimeBlock } from "@ganache/ethereum-block";
+import { BaseFeeHeader, Block, RuntimeBlock } from "@soloseng/ganache-ethereum-block";
 import {
   Transaction,
   TransactionFactory,
@@ -48,7 +48,7 @@ import { assertArgLength } from "./helpers/assert-arg-length";
 import { parseFilterDetails, parseFilterRange } from "./helpers/filter-parsing";
 import { decode } from "@ganache/rlp";
 import { Address } from "@ganache/ethereum-address";
-import { GanacheRawBlock } from "@ganache/ethereum-block";
+import { GanacheRawBlock } from "@soloseng/ganache-ethereum-block";
 import { Capacity } from "./miner/miner";
 import { Ethereum } from "./api-types";
 

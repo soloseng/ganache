@@ -53,7 +53,7 @@ import {
   VmTransaction,
   TypedTransaction
 } from "@soloseng/ganache-ethereum-transaction";
-import { Block, RuntimeBlock, Snapshots } from "@ganache/ethereum-block";
+import { Block, RuntimeBlock, Snapshots } from "@soloseng/ganache-ethereum-block";
 import {
   SimulationTransaction,
   applySimulationOverrides,

@@ -6,7 +6,7 @@ import {
 import { EthereumOptionsConfig } from "@soloseng/ganache-ethereum-options";
 import Wallet from "../src/wallet";
 import Blockchain from "../src/blockchain";
-import { Block } from "@ganache/ethereum-block";
+import { Block } from "@soloseng/ganache-ethereum-block";
 
 describe("blockchain", async () => {
   describe("interval mining", () => {

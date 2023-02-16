@@ -7,7 +7,7 @@ import {
   Block,
   EthereumRawBlockHeader,
   serialize
-} from "@ganache/ethereum-block";
+} from "@soloseng/ganache-ethereum-block";
 import { Address } from "@ganache/ethereum-address";
 import {
   GanacheRawBlockTransactionMetaData,

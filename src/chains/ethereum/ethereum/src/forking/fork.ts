@@ -6,7 +6,7 @@ import { HttpHandler } from "./handlers/http-handler";
 import { WsHandler } from "./handlers/ws-handler";
 import { Handler } from "./types";
 import { Tag } from "@soloseng/ganache-ethereum-utils";
-import { Block } from "@ganache/ethereum-block";
+import { Block } from "@soloseng/ganache-ethereum-block";
 import { Address } from "@ganache/ethereum-address";
 import { Account } from "@soloseng/ganache-ethereum-utils";
 import BlockManager from "../data-managers/block-manager";
