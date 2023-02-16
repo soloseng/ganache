@@ -1,3 +1,3 @@
-# `@ganache/ethereum`
+# `@soloseng/ganache-ethereum`
 
 This is ganache's Ethereum client implementation.

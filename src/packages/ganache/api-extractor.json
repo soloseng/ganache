@@ -61,7 +61,7 @@
     "@ganache/core",
     "@ganache/options",
     "@ganache/flavors",
-    "@ganache/ethereum",
+    "@soloseng/ganache-ethereum",
     "@soloseng/ganache-ethereum-options",
     "@soloseng/ganache-ethereum-utils",
     "@ganache/ethereum-address",

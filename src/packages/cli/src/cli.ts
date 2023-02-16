@@ -7,7 +7,7 @@ import { EthereumFlavorName, FilecoinFlavorName } from "@ganache/flavors";
 import initializeEthereum from "./initialize/ethereum";
 import initializeFilecoin from "./initialize/filecoin";
 import type { FilecoinProvider } from "@ganache/filecoin";
-import type { EthereumProvider } from "@ganache/ethereum";
+import type { EthereumProvider } from "@soloseng/ganache-ethereum";
 import {
   notifyDetachedInstanceReady,
   stopDetachedInstance,

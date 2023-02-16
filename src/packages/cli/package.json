@@ -53,7 +53,7 @@
     "truffle"
   ],
   "devDependencies": {
-    "@ganache/ethereum": "0.8.1",
+    "@soloseng/ganache-ethereum": "0.8.2-beta.1",
     "@ganache/filecoin": "0.7.0",
     "@types/mocha": "9.0.0",
     "cross-env": "7.0.3",

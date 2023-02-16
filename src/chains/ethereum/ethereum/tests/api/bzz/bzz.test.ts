@@ -8,7 +8,7 @@ describe("api", () => {
     before(async function () {
       // GitHub Actions' windows-2019 Node v14 environment can sometimes take a
       // VERY long time to run this `before`, as it is CURRENTLY the first
-      // @ganache/ethereum test that mocha runs (alphabetically)... and for some
+      // @soloseng/ganache-ethereum test that mocha runs (alphabetically)... and for some
       // reason it is slow.
       this.timeout(10000);
 
