@@ -1,6 +1,6 @@
 {
-  "name": "ganache",
-  "version": "7.7.2",
+  "name": "@soloseng/ganache",
+  "version": "7.7.5-beta.0",
   "description": "A library and cli to create a local blockchain for fast Ethereum development.",
   "author": "David Murdoch",
   "homepage": "https://github.com/trufflesuite/ganache/tree/develop/src/packages/ganache#readme",
