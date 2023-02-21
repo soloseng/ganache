@@ -1,6 +1,6 @@
 {
 	"id": 0,
-	"name": "@ganache/ethereum",
+	"name": "@soloseng/ganache-ethereum",
 	"kind": 1,
 	"kindString": "Project",
 	"flags": {},
