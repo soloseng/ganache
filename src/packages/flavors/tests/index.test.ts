@@ -1,5 +1,5 @@
 import assert from "assert";
 
-describe("@ganache/flavors", () => {
+describe("@soloseng/ganache-flavors", () => {
   it("needs tests");
 });

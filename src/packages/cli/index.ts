@@ -1,3 +1,3 @@
-import Ganache from "@ganache/core";
-export * from "@ganache/core";
+import Ganache from "@soloseng/ganache-core";
+export * from "@soloseng/ganache-core";
 export default Ganache;

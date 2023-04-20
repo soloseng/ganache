@@ -1,4 +1,4 @@
-import { BlockLogs, FilterArgs } from "@ganache/ethereum-utils";
+import { BlockLogs, FilterArgs } from "@soloseng/ganache-ethereum-utils";
 import Manager from "./manager";
 import { Quantity } from "@ganache/utils";
 import Blockchain from "../blockchain";

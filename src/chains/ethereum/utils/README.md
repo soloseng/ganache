@@ -1,3 +1,3 @@
-# `@ganache/ethereum-utils`
+# `@soloseng/ganache-ethereum-utils`
 
 > TODO: description

@@ -1,9 +1,9 @@
 {
-  "name": "@ganache/ethereum",
+  "name": "@soloseng/ganache-ethereum",
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.8.1",
+  "version": "0.8.2-beta.2",
   "description": "Ganache's Ethereum client implementation",
   "author": "David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)",
   "homepage": "https://github.com/trufflesuite/ganache/tree/develop/src/ethereum/ethereum#readme",
@@ -30,7 +30,7 @@
     "docs.preview": "ws --open --port 3010 --directory ../../../../docs",
     "tsc": "tsc --build",
     "test": "nyc --reporter lcov npm run mocha",
-    "mocha": "cross-env TS_NODE_FILES=true mocha --timeout 5000 -s 0 --exit --check-leaks --throw-deprecation --trace-warnings --require ts-node/register 'tests/**/*.test.ts'",
+    "mocha": "cross-env TS_NODE_FILES=true mocha --timeout 0 -s 0 --exit --check-leaks --throw-deprecation --trace-warnings --require ts-node/register 'tests/**/*.test.ts'",
     "postinstall": "npx patch-package@6.5.0"
   },
   "bugs": {
@@ -58,10 +58,10 @@
     "@ethereumjs/vm": "npm:@soloseng/ethereumjs-vm@6.2.3",
     "@ganache/console.log": "0.3.0",
     "@ganache/ethereum-address": "0.7.0",
-    "@ganache/ethereum-block": "0.7.0",
-    "@ganache/ethereum-options": "0.7.0",
-    "@ganache/ethereum-transaction": "0.7.0",
-    "@ganache/ethereum-utils": "0.7.0",
+    "@soloseng/ganache-ethereum-block": "0.7.2-beta.1",
+    "@soloseng/ganache-ethereum-options": "0.7.2-beta.1",
+    "@soloseng/ganache-ethereum-transaction": "0.7.2-beta.1",
+    "@soloseng/ganache-ethereum-utils": "0.7.2-beta.1",
     "@ganache/options": "0.7.0",
     "@ganache/promise-queue": "0.4.0",
     "@ganache/rlp": "0.7.0",

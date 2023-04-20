@@ -1,9 +1,9 @@
 {
-  "name": "@ganache/ethereum-utils",
+  "name": "@soloseng/ganache-ethereum-utils",
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.7.0",
+  "version": "0.7.2-beta.1",
   "description": "",
   "author": "David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)",
   "homepage": "https://github.com/trufflesuite/ganache/tree/develop/src/chains/ethereum/utils#readme",
