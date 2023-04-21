@@ -13,7 +13,7 @@ import leveldown from "leveldown";
 import type { LevelUp } from "levelup";
 import { TrieDB } from "./trie-db";
 import { BUFFER_ZERO, VERSION_KEY } from "@ganache/utils";
-import { Block } from "@ganache/ethereum-block";
+import { Block } from "@soloseng/ganache-ethereum-block";
 const levelup = require("levelup");
 
 export type GanacheLevelUp = LevelUp<
