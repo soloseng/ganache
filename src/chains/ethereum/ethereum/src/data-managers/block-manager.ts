@@ -8,16 +8,16 @@ import {
   BlockRawTransaction,
   EthereumRawBlock,
   EthereumRawBlockHeader,
-Head,
-serialize,
-WithdrawalRaw
+  Head,
+  serialize,
+  WithdrawalRaw
 } from "@soloseng/ganache-ethereum-block";
 import { Address } from "@ganache/ethereum-address";
 import {
   encodeWithPrefix,
   GanacheRawBlockTransactionMetaData,
   TransactionFactory,
-  GanacheRawExtraTx,
+  GanacheRawExtraTx
 } from "@soloseng/ganache-ethereum-transaction";
 import { GanacheLevelUp } from "../database";
 import { Ethereum } from "../api-types";
