@@ -828,14 +828,6 @@ export default class Blockchain extends Emittery<BlockchainTypedEvents> {
       });
       await stateManager.commit();
 
-      await this.#commitAccounts(initialAccounts);
-
-      // README: block `0` is weird in that a `0` _should_ be hashed as `[]`,
-      // instead of `[0]`, so we set it to `Quantity.Empty` instead of
-      // `Quantity.Zero` here. A few lines down in this function we swap
-      // this `Quantity.Empty` for `Quantity.Zero`. This is all so we don't
-      // have to have a "treat empty as 0` check in every function that uses the
-      // "latest" block (which this genesis block will be for brief moment).
       const rawBlockNumber = Quantity.Empty;
 
       // create the genesis block
@@ -871,7 +863,6 @@ export default class Blockchain extends Emittery<BlockchainTypedEvents> {
         [],
         new Map()
       );
-      // README: set the block number to an actual 0 now.
       block.header.number = Quantity.Zero;
       const hash = block.hash();
       return this.blocks
@@ -882,6 +873,61 @@ export default class Blockchain extends Emittery<BlockchainTypedEvents> {
         }));
     }
   };
+
+  //     await this.#commitAccounts(initialAccounts);
+
+  //     // README: block `0` is weird in that a `0` _should_ be hashed as `[]`,
+  //     // instead of `[0]`, so we set it to `Quantity.Empty` instead of
+  //     // `Quantity.Zero` here. A few lines down in this function we swap
+  //     // this `Quantity.Empty` for `Quantity.Zero`. This is all so we don't
+  //     // have to have a "treat empty as 0` check in every function that uses the
+  //     // "latest" block (which this genesis block will be for brief moment).
+  //     const rawBlockNumber = Quantity.Empty;
+
+  //     // create the genesis block
+  //     const baseFeePerGas = this.common.isActivatedEIP(1559)
+  //       ? Block.INITIAL_BASE_FEE_PER_GAS
+  //       : undefined;
+
+  //     const genesis = new RuntimeBlock(
+  //       this.common,
+  //       rawBlockNumber,
+  //       Data.from(BUFFER_32_ZERO),
+  //       this.coinbase,
+  //       blockGasLimit,
+  //       Quantity.Zero,
+  //       Quantity.from(timestamp),
+  //       this.isPostMerge ? Quantity.Zero : this.#options.miner.difficulty,
+  //       Quantity.Zero, // we start the totalDifficulty at 0
+  //       // we use the initial trie root as the genesis block's mixHash as it
+  //       // is deterministic based on initial wallet conditions
+  //       this.isPostMerge ? keccak(this.trie.root()) : BUFFER_32_ZERO,
+  //       baseFeePerGas,
+  //       KECCAK256_RLP
+  //     );
+
+  //     // store the genesis block in the database
+  //     const { block, serialized } = genesis.finalize(
+  //       KECCAK256_RLP,
+  //       KECCAK256_RLP,
+  //       BUFFER_256_ZERO,
+  //       this.trie.root(),
+  //       0n,
+  //       this.#options.miner.extraData,
+  //       [],
+  //       new Map()
+  //     );
+  //     // README: set the block number to an actual 0 now.
+  //     block.header.number = Quantity.Zero;
+  //     const hash = block.hash();
+  //     return this.blocks
+  //       .putBlock(block.header.number.toBuffer(), hash, serialized)
+  //       .then(_ => ({
+  //         block,
+  //         blockLogs: BlockLogs.create(hash)
+  //       }));
+  //   }
+  // };
 
   /**
    * The number of milliseconds time should be adjusted by when computing the
