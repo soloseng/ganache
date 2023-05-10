@@ -49,6 +49,9 @@ const base: webpack.Configuration = {
       }
     ]
   },
+  experiments: {
+    topLevelAwait: true
+  },
   resolve: {
     extensions: [".ts", ".js"]
   },
